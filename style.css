@@ -176,3 +176,44 @@ background:#0f172a;
 margin-top:80px;
 opacity:0.7;
 }
+.leader-card {
+    max-width: 350px;
+    margin: 0 auto;
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.leader-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.leader-card h3 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.role {
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.sub-role {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.vision {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 14px;
+        }
+#director {
+    display: flex;
+    justify-content: center;
+}
