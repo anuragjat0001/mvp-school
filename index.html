@@ -85,7 +85,63 @@
 <footer>
     © 2024 Madhav Vidyapeeth | All Rights Reserved
 </footer>
+<!-- Floating Contact Button -->
+<div class="floating-contact">
+  <div class="contact-toggle" onclick="toggleContact()">
+    📞
+  </div>
 
-<script src="script.js"></script>
+  <div class="contact-options" id="contactOptions">
+    <a href="https://wa.me/917878060667" target="_blank">WhatsApp</a>
+    <a href="https://www.instagram.com/madhav.vidhyapeeth/" target="_blank">Instagram</a>
+    <a href="https://www.facebook.com/profile.php?id=61566618945373" target="_blank">Facebook</a>
+    <a href="tel:+917878060667">Call</a>
+  </div>
+</div>
+
+<style>
+.floating-contact {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.contact-toggle {
+  width: 60px;
+  height: 60px;
+  background: #e63946;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.contact-options {
+  display: none;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.contact-options a {
+  background: #1d3557;
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 8px;
+  font-size: 14px;
+}
+</style>
+
+<script>
+function toggleContact() {
+  const box = document.getElementById("contactOptions");
+  box.style.display = box.style.display === "flex" ? "none" : "flex";
+}
+</script>
 </body>
 </html>
