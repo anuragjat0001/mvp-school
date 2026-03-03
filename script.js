@@ -72,19 +72,3 @@ gsap.to(".hero", {
     scrub: true
   }
 });
-
-/* -------------------------
-   GALLERY STAGGER EFFECT
---------------------------*/
-
-gsap.from(".gallery-grid img", {
-  scrollTrigger: {
-    trigger: ".gallery-grid",
-    start: "top 80%",
-  },
-  opacity: 0,
-  y: 50,
-  duration: 1,
-  stagger: 0.2,
-  ease: "power3.out"
-});
