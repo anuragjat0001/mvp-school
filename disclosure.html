@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
 
 <meta charset="UTF-8">
@@ -8,137 +7,135 @@
 
 <title>Mandatory Disclosure | Madhav Vidyapeeth</title>
 
-<link rel="stylesheet" href="style.css">
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#0b1b34;
+color:white;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:40px 20px;
+text-align:center;
+}
+
+h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.subtitle{
+opacity:0.8;
+margin-bottom:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#132a4d;
+padding:25px;
+border-radius:12px;
+transition:0.3s;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card:hover{
+transform:translateY(-8px);
+background:#1b3a6b;
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.card p{
+font-size:14px;
+opacity:0.8;
+}
+
+.btn{
+display:inline-block;
+margin-top:15px;
+padding:10px 18px;
+background:#3a7bfd;
+color:white;
+text-decoration:none;
+border-radius:6px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#2a5fd4;
+}
+
+</style>
 
 </head>
 
 <body>
 
-<section class="disclosure-page">
+<div class="container">
 
-<h1 class="page-title">Mandatory Disclosure</h1>
-
-<p class="page-subtitle">
+<h1>Mandatory Disclosure</h1>
+<p class="subtitle">
 Transparency and compliance documents for parents and visitors.
 </p>
 
-<div class="document-grid">
+<div class="grid">
 
-
-<div class="doc-card">
-
-<div class="doc-icon">📄</div>
-
+<div class="card">
 <h3>SMC Members</h3>
-
-<p>School Management Committee details.</p>
-
-<a href="assets/documents/smc.pdf" target="_blank" class="doc-btn">
-View PDF
-</a>
-
+<p>School Management Committee details</p>
+<a href="assets/smc.pdf" target="_blank" class="btn">View PDF</a>
 </div>
 
-
-
-<div class="doc-card">
-
-<div class="doc-icon">📑</div>
-
+<div class="card">
 <h3>Fee Structure</h3>
-
-<p>Complete school fee structure.</p>
-
-<a href="assets/documents/fees.pdf" target="_blank" class="doc-btn">
-View PDF
-</a>
-
+<p>Complete school fee structure</p>
+<a href="assets/fees.pdf" target="_blank" class="btn">View PDF</a>
 </div>
 
-
-
-<div class="doc-card">
-
-<div class="doc-icon">🏫</div>
-
+<div class="card">
 <h3>Society Certificate</h3>
-
-<p>School society registration certificate.</p>
-
-<a href="assets/documents/society.pdf" target="_blank" class="doc-btn">
-View PDF
-</a>
-
+<p>School society registration certificate</p>
+<a href="assets/society.pdf" target="_blank" class="btn">View PDF</a>
 </div>
 
-
-
-<div class="doc-card">
-
-<div class="doc-icon">📜</div>
-
+<div class="card">
 <h3>Self Certificate</h3>
-
-<p>School compliance self certificate.</p>
-
-<a href="assets/documents/selfcertificate.pdf" target="_blank" class="doc-btn">
-View PDF
-</a>
-
+<p>School compliance self certificate</p>
+<a href="assets/selfcertificate.pdf" target="_blank" class="btn">View PDF</a>
 </div>
 
-
-
-<div class="doc-card">
-
-<div class="doc-icon">👨‍👩‍👧‍👦</div>
-
+<div class="card">
 <h3>PTA 2024</h3>
-
-<p>Parent Teacher Association details.</p>
-
-<a href="assets/documents/pta.pdf" target="_blank" class="doc-btn">
-View PDF
-</a>
-
+<p>Parent Teacher Association details</p>
+<a href="assets/pta.pdf" target="_blank" class="btn">View PDF</a>
 </div>
 
-
-
-<div class="doc-card">
-
-<div class="doc-icon">📅</div>
-
+<div class="card">
 <h3>Academic Calendar</h3>
-
-<p>Session calendar for 2025-26.</p>
-
-<a href="assets/documents/calendar.pdf" target="_blank" class="doc-btn">
-View PDF
-</a>
-
+<p>Session calendar for 2025-26</p>
+<a href="assets/calendar.pdf" target="_blank" class="btn">View PDF</a>
 </div>
 
-
-
-<div class="doc-card">
-
-<div class="doc-icon">📘</div>
-
+<div class="card">
 <h3>Mandatory Disclosure</h3>
-
-<p>CBSE SARAS disclosure details.</p>
-
-<a href="assets/documents/disclosure.pdf" target="_blank" class="doc-btn">
-View PDF
-</a>
+<p>CBSE SARAS disclosure details</p>
+<a href="assets/disclosure.pdf" target="_blank" class="btn">View PDF</a>
+</div>
 
 </div>
 
-
 </div>
-
-</section>
 
 </body>
 </html>
