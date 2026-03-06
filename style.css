@@ -343,3 +343,148 @@ border-radius:6px;
 font-weight:bold;
 cursor:pointer;
 }
+/* HERO */
+
+.academic-hero{
+
+text-align:center;
+padding:120px 20px;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+
+}
+
+.academic-hero h1{
+
+font-size:40px;
+margin-bottom:20px;
+
+}
+
+
+
+/* LEVEL SECTION */
+
+.academic-levels{
+
+padding:80px 20px;
+text-align:center;
+
+}
+
+.level-grid{
+
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+
+}
+
+.level-card{
+
+background:#14213d;
+padding:30px;
+width:280px;
+border-radius:12px;
+color:white;
+transition:0.4s;
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+
+}
+
+.level-card:hover{
+
+transform:translateY(-15px) scale(1.05);
+background:#1f3a6f;
+
+}
+
+
+
+/* SUBJECTS */
+
+.subjects{
+
+padding:80px 20px;
+text-align:center;
+
+}
+
+.subject-grid{
+
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+margin-top:40px;
+
+}
+
+.subject-card{
+
+background:#1f3a6f;
+padding:15px 30px;
+border-radius:8px;
+color:white;
+transition:0.3s;
+
+}
+
+.subject-card:hover{
+
+transform:scale(1.1);
+
+}
+
+
+
+/* PHILOSOPHY */
+
+.learning-philosophy{
+
+padding:80px 20px;
+text-align:center;
+max-width:900px;
+margin:auto;
+
+}
+
+
+
+/* FACILITIES */
+
+.academic-facilities{
+
+padding:80px 20px;
+text-align:center;
+
+}
+
+.facility-grid{
+
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+margin-top:40px;
+
+}
+
+.facility-card{
+
+background:#14213d;
+padding:20px 30px;
+border-radius:10px;
+color:white;
+transition:0.4s;
+
+}
+
+.facility-card:hover{
+
+transform:translateY(-10px);
+background:#1f3a6f;
+
+}
